@@ -54,7 +54,7 @@ nav{
 }
 .banner {
     text-align: center;
-    background: url("../hero-bg.png");
+    background: url("./hero-bg.png");
     padding-top: 116px;
     padding: 116px 120px 160px 120px;
     align-items: center;
@@ -271,4 +271,5 @@ nav{
 .footer-content {
     background-color: #001931;
     height: 348px;
+
 }

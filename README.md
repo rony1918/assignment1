@@ -1,14 +1,122 @@
-<img width="195" height="197" alt="x-twitter" src="https://github.com/user-attachments/assets/8e68317b-a7fa-4d8d-b246-5edf600a704e" />
-<img width="28" height="29" alt="Vector" src="https://github.com/user-attachments/assets/b4b708ab-a9eb-49ca-b48b-32a8e9922d32" />
-<img width="139" height="60" alt="logo-navbar" src="https://github.com/user-attachments/assets/e8a9fac8-8aff-4509-bb24-fa1f64fb36e7" />
-<img width="139" height="60" alt="logo-footer" src="https://github.com/user-attachments/assets/7eec1b4d-53dd-4835-94f0-e5532bcc2e3b" />
-<img width="195" height="197" alt="linkedin" src="https://github.com/user-attachments/assets/70da45d9-3e75-4b1a-9721-d5175c0c80ba" />
-<img width="600" height="600" alt="knowledge" src="https://github.com/user-attachments/assets/ff74cde8-9629-4fec-a7e0-5a3855d743ed" />
-<img width="32" height="32" alt="Info" src="https://github.com/user-attachments/assets/6080eaa9-c50c-4300-ac15-e8b440614a69" />
-<img width="1600" height="674" alt="hero-bg" src="https://github.com/user-attachments/assets/e9fc146e-b311-43f3-9683-f2b228fcee7b" />
-<img width="58" height="60" alt="fav icon" src="https://github.com/user-attachments/assets/d8bf9ae6-a198-4fdb-b746-057e50619166" />
-<img width="195" height="197" alt="facebook" src="https://github.com/user-attachments/assets/ba4f2a70-6362-4fa2-9315-8f296aa4be87" />
-<img width="20" height="20" alt="CheckCircle" src="https://github.com/user-attachments/assets/5e530252-8fa6-40a7-8860-b5a77d0401e8" />
-<img width="32" height="32" alt="Brain" src="https://github.com/user-attachments/assets/e28e6602-2dd9-43a7-b937-1275b5f38cc4" />
-<img width="32" height="32" alt="Bookmarks" src="https://github.com/user-attachments/assets/217e09c0-5fcf-4b00-bda3-e71281b6b2d9" />
-<img width="20" height="20" alt="ArrowRight" src="https://github.com/user-attachments/assets/ab292e72-280d-4e57-8bc0-1390655757ec" />
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>knowledge Vault</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" type="image/x-icon" href="./fav icon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
+</head>
+<body>
+    <header>
+        <nav class="nav-bar">
+            <div class="logo">
+               <img src="./logo-navbar.png" alt="IKV Logo">
+            </div>
+             <ul class="nav-menue">
+                <li><a href="#">Features</a></li>
+                <li><a href="#">How It Works</a></li>
+                <li><a href="#">Why It's Different</a></li>
+                <li><button class="nav-button">Get Early Access</button></li>
+             </ul>
+        </nav>
+        <section class="banner">
+            <div>
+                <ul class="early-access">
+                    <li><button class="early-button"><i class="fa-regular fa-circle-dot"></i>Early Access Now Open</button></li>
+                </ul>
+            </div>
+            <div class="banner-content">
+                <h1>Structured thinking,</h1>
+                <h2>not just note-Taking.</h2>
+                <p>A private space to store notes, links, and learning summaries — designed to </br>
+                   help you think clearly, connect ideas, and turn learning into long-term knowledge.</p>
+            </div>
+            <div class="banner-button">
+                <ul>
+                    <li><button class="nav-button">Start Building Your Vault<i class="fa-solid fa-arrow-right"></i></button>
+                    <li><button class="get-button"><i class="fa-regular fa-circle-play"></i>See How It Works</button>
+                    
+                </ul>
+            </div>
+
+                
+        </section>
+    </header>
+       <section class="body">
+            <div>
+              <h1 class="body-head">Notes don't fail, Structure does.</h1>
+              <p>You're not bad at learning. Your tools just weren't built for how knowledge actually works.</p>
+              <ul class="body-list">
+                 <li>
+                     <img src="./Vector.png" alt="Vector icon">
+                     <h3>Scattered notes</h3>
+                     <p>Your ideas live in 10 different apps, none of them connected.</p>
+                 </li>
+                 <li>
+                     <img src="./Bookmarks.png" alt="Bookmarks icon">
+                     <h3>Bookmark overload</h3>
+                     <p>Hundreds of saved links you'll never revisit or remember.</p>
+                 </li>
+                 <li>
+                     <img src="./Brain.png" alt="Brain icon">
+                     <h3>No idea connections</h3>
+                     <p>Insights stay isolated, never building into bigger understanding.</p>
+                 </li>
+                 <li>
+                     <img src="./Info.png" alt="Info icon">
+                     <h3>Forgetting what</br> you learned</h3>
+                     <p>Knowledge fades because there's no system to retain it.</p>
+                 </li>
+             </ul>
+          </div>
+       </section>
+       <section>
+         <div class="body2">
+             <ul>
+                <li class="body2-img"><img src="./knowledge.png" alt="knowledge img"></li>
+                <li class="body2-text">
+                    <p style="color:#30B868; font-size: 16px;">The Solution</p>
+                    <h2 style="font-size: 30px;">Your second brain,</br>
+                        structured by design.</h2>
+                    <p><span class="p"><img src="./CheckCircle.png" alt="icon"></span>Capture ideas with structure built-in from day one</p>
+                    <p><span class="p"><img src="./CheckCircle.png" alt="icon"></span>Connect related concepts automatically as you write</p>
+                    <p><span class="p"><img src="./CheckCircle.png" alt="icon"></span>Build lasting knowledge through reflection prompts</p>
+                    <p><span class="p"><img src="./CheckCircle.png" alt="icon"></span>Find anything instantly with semantic search</p>
+                </li>
+             </ul>
+         </div>
+       </section>
+       <section>
+            <div class="body3">
+                <h2>Ready to think more clearly?</h2>
+                <p>Join thousands of learners who are building their personal knowledge vaults.
+                   Start free, no credit card required.</p>
+                <ul>
+                    <li><button class="nav-button">Get Early Access<i class="fa-solid fa-arrow-right"></i></button></li>
+                </ul>
+                <p>Free during early access • No credit card needed</p>
+       </section>
+       <footer>
+        <div class="footer-content">
+            <div class="footer-cont">
+                <ul>
+                    <li class="logo"><img style="width: 71px;" src="./logo-footer.png" alt="IKV Logo"></li>
+                    <li class="social-icon">
+                        <P>Social Links</P>
+                        <img src="./facebook.png" alt="Facebook icon">
+                        <img src="./linkedin.png" alt="Linkedin icon">
+                        <img src="./x-twitter.png" alt="Twitter icon">
+                    </li>
+                </ul>
+            </div>
+            <div class="copyright">
+                <p>© 2026 Personal Knowledge Vault. All rights reserved.</p>
+            </div>
+       </footer>
+</body>
+</html>
